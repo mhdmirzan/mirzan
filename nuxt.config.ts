@@ -5,10 +5,6 @@ import { definePerson } from "nuxt-schema-org/schema"
 const IS_DEV = import.meta.dev
 
 export default defineNuxtConfig({
-  app: {
-    baseURL: '/mirzan/',
-  },
-
   colorMode: {
     preference: "system",
     fallback: "dark",
@@ -103,25 +99,15 @@ export default defineNuxtConfig({
   ],
 
   nitro: {
-    preset: "github-pages",
+    preset: "vercel",
     prerender: {
       crawlLinks: true,
       failOnError: false,
-      autoSubfolderIndex: true,
-    },
-    compressPublicAssets: {
-      brotli: true,
-      gzip: true,
     },
   },
 
   routeRules: {
-    "/**": {
-      static: true,
-      prerender: true,
-    },
     "/blog/**": {
-      static: true,
       prerender: true,
     },
   },
