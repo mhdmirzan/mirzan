@@ -1,0 +1,384 @@
+projects:
+  
+  - id: 0
+    title: "Interveuu - AI-Powered Recruitment Automation"
+    description: "Built a full-stack hiring platform that automates resume screening, candidate ranking, and AI interviews using React, FastAPI, and MongoDB, helping recruiters shortlist candidates faster and make smarter, data-driven hiring decisions."
+    longDescription: "Interveuu is a comprehensive AI-powered recruitment automation platform designed to revolutionize the hiring process. Built with FastAPI for the backend, React for the frontend, and MongoDB for data storage, Interveuu offers a seamless experience for recruiters and hiring managers. The platform automates key recruitment tasks such as resume parsing, CV screening, candidate ranking, and interview scheduling. With its intuitive dashboard, recruiters can easily post job openings, evaluate applicants using data-driven insights, and manage the entire hiring workflow efficiently. Interveuu aims to save time, reduce bias, and improve the quality of hires by leveraging cutting-edge AI technologies."
+    image: "/img/projects/interveuu.png"
+    images:
+      - "/img/projects/interveuu.png"
+    technologies:
+      - "FastAPI"
+      - "React"
+      - "MongoDB"
+      - "Python"
+      - "Docker"
+      - "Render"
+      - "Vercel"
+      - "Google Gemini AI"
+      - "Tailwind CSS"
+    category: "AI"
+    featured: true
+    status: "active"
+    startDate: "2025-09-01"
+    endDate: null
+    links:
+      demo: "https://recrubotx.vercel.app/"
+      case_study: ""
+    stats:
+    features:
+      - "AI-powered resume parsing and candidate ranking"
+      - "Automated interview scheduling and management"
+      - "Data-driven insights for smarter hiring decisions"
+      - "Intuitive dashboard for recruiters and hiring managers"
+    Challenges:
+      - "Ensuring data privacy and security for sensitive candidate information"
+      - "Optimizing performance for real-time candidate evaluation"
+    Outcomes:
+      - "Successfully launched MVP with positive user feedback"
+      - "Secured initial users and ongoing interest from recruiters"
+
+  - id: 14
+    title: "Agent Orchestra"
+    description: "A fully autonomous, multi-agent AI research system built with LangChain and Streamlit. It orchestrates four specialized AI agents to search the web, scrape deep content, draft comprehensive markdown reports, and provide automated critiques in a highly polished, live-updating frontend."
+    longDescription: "Agent Orchestra is an advanced AI application that transforms complex, manual research into a seamless, automated pipeline. The system architecture leverages LangChain to coordinate four distinct LLM agents: a Search Agent using the Tavily API to find reliable sources, a Reader Agent to scrape and extract dense contexts from HTML, a Writer Chain to synthesize the data into a structured report, and a Critic Chain to review and score the output. The backend is paired with a highly customized Streamlit frontend, featuring bespoke CSS, a responsive layout, and asynchronous state management that provides users with live, step-by-step progress tracking and a downloadable final report."
+    image: "/img/projects/agent-orchestra.png"
+    technologies:
+      - "Python"
+      - "Streamlit"
+      - "LangChain"
+      - "OpenAI API"
+      - "Tavily Search API"
+      - "BeautifulSoup4"
+    category: "AI"
+    featured: true
+    status: "completed"
+    startDate: "2026-03-15"
+    endDate: "2026-04-21"
+    links:
+      demo: "https://agentorchestra.streamlit.app/"
+      github: "https://github.com/mhdmirzan/multi-agent-system"
+      case_study: "/blog/5-agent-orchestra"
+    features:
+      - "Four-Stage Autonomous Pipeline: Engineered a sequential orchestration graph where output from the Search and Reader tools is deterministically piped into the Writer and Critic LLMs."
+      - "Live UI State Management: Utilized Streamlit's session states and empty placeholder containers to build a responsive pipeline visualizer that updates asynchronously as each agent completes its task."
+      - "Intelligent Web Scraping: Integrated custom Python tools using BeautifulSoup and Requests to intelligently extract meaningful text from raw HTML while bypassing web clutter."
+      - "Feedback & Self-Critique Loop: Implemented an automated AI critic step that evaluates the drafted report for accuracy, tone, and depth, acting as a built-in quality assurance measure."
+      - "Fully Customized UI/UX: Overrode Streamlit's default Chrome with extensive CSS injections to create a modern, sleek interface featuring custom input cards, progress indicators, and dynamic step-status styling."
+    challenges:
+      - "Asynchronous UI Rendering: Overcame Streamlit's synchronous execution constraints by strategically wrapping pipeline rendering functions and managing reruns to show real-time agent progress."
+      - "Large Context Coordination: Handled massive tokens of raw scraped data by instructing the Reader agent to synthesize and truncate context before passing it to the Writer chain to prevent context-window exhaustion."
+      - "Frontend Component Styling: Bypassed Streamlit's rigid component styling by injecting custom HTML/CSS to perfectly align the hero sections, layout tracking cards, and download buttons to a strict design spec."
+    outcomes:
+      - "Accelerated Research Workflows: Reduced the time required to gather, read, and synthesize multi-source information from hours down to under 60 seconds."
+      - "Production-Ready Full-Stack AI: Demonstrated the ability to bridge complex backend LLM orchestration with a highly polished, consumer-grade frontend."
+      - "Reliable Quality Assurance: Ensured high-confidence outputs through the multi-agent approach, where the Critic Agent prevents hallucinations and enforces rigorous scraping targets only relevant domain logic captures actual data over metadata."
+
+  - id: 1
+    title: "Customer Churn Analytics & Mining"
+    description: "Designed a holistic retention system that combines a Snowflake Schema data warehouse with machine learning to predict and mitigate customer churn. The project utilizes the KDD (Knowledge Discovery in Databases) process to transform transactional data into interactive business intelligence."
+    longDescription: "Designed a holistic retention system that combines a Snowflake Schema data warehouse with machine learning to predict and mitigate customer churn. The project utilizes the KDD (Knowledge Discovery in Databases) process to transform transactional data into interactive business intelligence."
+    image: "/img/projects/churn-analytics.png"
+    technologies:
+      - "Python"
+      - "PostgreSQL"
+      - "PowerBI"
+      - "Microsoft Fabric"
+      - "Pandas"
+      - "Scikit-learn"
+    category: "Data Analytics"
+    featured: false
+    status: "completed"
+    startDate: "2024-01-01"
+    endDate: null
+    links:
+      demo: "https://app.powerbi.com/links/yZQBaB-SJF?ctid=fa4630b9-65b1-465d-9d71-2d6f9cb85a8b&pbi_source=linkShare"
+      github: "https://github.com/mhdmirzan/Customer-Churn-Analytics"
+
+  - id: 6
+    title: "Strategic Merger Analysis"
+    description: "This project focuses on a high-stakes strategic merger analysis within India's OTT (Over-The-Top) sector, evaluating the consolidation of LioCinema and Jotstar. As a Data Analyst, I conducted a deep dive into user behavior and platform performance to provide Lio’s management with a roadmap for post-merger dominance. The study leverages a 12-month dataset to identify growth opportunities, content gaps, and retention strategies."
+    longDescription: "This project focuses on a high-stakes strategic merger analysis within India's OTT (Over-The-Top) sector, evaluating the consolidation of LioCinema and Jotstar. As a Data Analyst, I conducted a deep dive into user behavior and platform performance to provide Lio’s management with a roadmap for post-merger dominance. The study leverages a 12-month dataset to identify growth opportunities, content gaps, and retention strategies."
+    image: "/img/projects/strategic-merger.png"
+    technologies:
+      - "PowerBI"
+      - "SQL"
+      - "Microsoft Excel"
+      - "Microsoft PowerPoint"
+    category: "Dashboard"
+    featured: false
+    status: "completed"
+    startDate: "2024-03-01"
+    endDate: "2024-03-25"
+    links:
+      github: "https://github.com/mhdmirzan/ott-domain-analysis"
+      video: ""
+
+  - id: 12
+    title: "FabricLand College Dashboard"
+    description: "A comprehensive educational analytics platform developed to evaluate and compare college performance metrics. The dashboard utilizes advanced data visualization techniques, including radar charts for multi-factor analysis and donut charts for demographic distribution, to provide stakeholders with actionable insights into student success and institutional efficiency."
+    longDescription: "A comprehensive educational analytics platform developed to evaluate and compare college performance metrics. The dashboard utilizes advanced data visualization techniques, including radar charts for multi-factor analysis and donut charts for demographic distribution, to provide stakeholders with actionable insights into student success and institutional efficiency."
+    image: "/img/projects/fabricland_dashboard.png"
+    technologies:
+      - "Power BI"
+      - "DAX"
+      - "Power Query (M)"
+      - "Figma"
+      - "Microsoft Fabric"
+    category: "Dashboard"
+    featured: false
+    status: "completed"
+    startDate: "2025-10-15"
+    endDate: "2025-11-25"
+    links:
+      demo: "https://app.fabric.microsoft.com/links/kvA-Z1bYJ_?ctid=fa4630b9-65b1-465d-9d71-2d6f9cb85a8b&pbi_source=linkShare"
+    features:
+      - "KPI Scoring System: Implemented a custom 'Magic Score' metric to normalize institutional performance across multiple variables."
+      - "Six-Factor Radar Analysis: Interactive radar chart comparing facilities, diversity, happiness, and alumni satisfaction for individual colleges."
+      - "Dynamic Demographic Breakdown: Visualizing campus type distribution (Urban, Mountain, Forest, Coastal) to understand institutional reach."
+      - "Admission Difficulty Tracking: Categorized bar charts analyzing the correlation between admission rigor and student outcomes."
+      - "Top Performers Leaderboard: A filtered view of top-tier colleges based on salary outcomes and happiness indices."
+    challenges:
+      - "Complex DAX Measures: Developed sophisticated DAX formulas to calculate weighted scores and rankings dynamically based on user slicers."
+      - "Advanced Data Modeling: Integrated disparate datasets regarding tuition, starting salaries, and qualitative survey scores into a cohesive star schema."
+      - "UI/UX Optimization: Designed a clean, professional sidebar-style navigation to enhance user experience within the Power BI service environment."
+    outcomes:
+      - "Award-Winning Insights: This project demonstrates the level of analytical depth required for high-stakes data challenges (like FP20 Analytics)."
+      - "Enhanced Decision Making: Provides a streamlined way for educational consultants to identify top-performing institutions based on custom student priorities."
+      - "Data Storytelling: Successfully translated complex educational metrics into an intuitive, visually compelling narrative for non-technical users."
+
+  - id: 13
+    title: "EcoRide Urban Analytics"
+    description: "A deep-dive SQL optimization project utilizing Google BigQuery to analyze 15,000+ e-bike transactions. The analysis focuses on solving urban mobility challenges, such as fleet rebalancing and user retention, by transforming raw rental logs into actionable operational intelligence and strategic growth recommendations."
+    longDescription: "This project serves as a comprehensive analytical framework for a modern e-bike sharing service. Using a dataset spanning 12 months, I engineered complex SQL queries to evaluate system health across three core dimensions: user behavior, station logistics, and temporal demand. The analysis goes beyond simple reporting by identifying critical 'false starts' and outliers, mapping the geographic 'net flow' of bikes to prevent station stock-outs, and calculating Month-over-Month (MoM) growth metrics to track market penetration. By segmenting users into Subscriber and Casual tiers, the project uncovers distinct usage patterns that allow for targeted marketing and dynamic pricing strategies."
+    image: "/img/projects/ebike-analytics.png"
+    technologies:
+      - "Google BigQuery"
+      - "SQL"
+      - "Time-Series Analysis"
+      - "Statistical Analysis"
+    category: "Data Analytics"
+    featured: false
+    status: "completed"
+    startDate: "2026-01-10"
+    endDate: "2026-03-05"
+    links:
+      case_study: "https://docs.google.com/document/d/10yNcasM6IC5UicCFz6Fjka5y9y-q8GMv5St5x3KLioA/edit?usp=sharing"
+    features:
+      - "Operational Net-Flow Mapping: Developed a multi-CTE logic to track the movement of bikes between 25 stations, revealing a critical deficit in 12 locations requiring manual rebalancing."
+      - "Temporal Peak Analysis: Aggregated 15,000+ rows of time-series data to identify high-revenue windows, specifically pinpointing 3:00 PM-4:00 PM as the daily peak for fleet utilization."
+      - "User Segmentation Logic: Built a categorization engine to distinguish between short-burst commuters and long-duration leisure riders, enabling personalized membership offers."
+      - "Data Integrity Audit: Engineered automated COUNTIF scripts to detect and isolate 'false starts' (trips < 2 mins) and zero-distance anomalies to ensure statistical accuracy."
+      - "Growth & Retention Tracking: Implemented LAG() and LEAD() window functions to visualize user acquisition trends, identifying a massive 219.2% growth spike in Q1."
+    challenges:
+      - "Anomalous Data Filtering: Resolved the issue of 'ghost rides' (0km distance) which initially skewed average duration metrics, ensuring the final report reflected real-world usage."
+      - "Relational Data Consolidation: Successfully joined disparate User, Ride, and Station tables to create a unified view of the ecosystem without compromising query performance."
+      - "Calculating Net Displacement: Solved the logical hurdle of comparing departures vs. arrivals per station to highlight logistics bottlenecks in the city center."
+    outcomes:
+      - "Targeted Revenue Strategy: Discovered that weekends are underutilized, leading to a recommendation for 'Leisure Pass' discounts to boost non-commuter revenue."
+      - "Improved Logistics Efficiency: Provided a roadmap for fleet operators to prioritize the 12 negative-flow stations during the 7:00 AM morning rush."
+      - "Data-Driven Decision Making: Transformed raw timestamps and coordinates into a high-level executive summary of urban mobility trends."
+
+  - id: 7
+    title: "EEG Burnout Classification"
+    description: "Developed a globally accessible home automation system that integrates ESP32 microcontrollers with the Sinric Pro API to bridge local hardware with the Google Home ecosystem. This project enables seamless voice-activated control and remote monitoring of appliances via the Google Home app, ensuring high availability and low-latency response from anywhere in the world."
+    longDescription: "Developed a globally accessible home automation system that integrates ESP32 microcontrollers with the Sinric Pro API to bridge local hardware with the Google Home ecosystem. This project enables seamless voice-activated control and remote monitoring of appliances via the Google Home app, ensuring high availability and low-latency response from anywhere in the world."
+    image: "/img/projects/eeg-burnout.png"
+    technologies:
+      - "Python"
+      - "Pandas"
+      - "NumPy"
+      - "Matplotlib"
+      - "Seaborn"
+    category: "Machine Learning"
+    featured: false
+    status: "completed"
+    startDate: "2025-02-01"
+    endDate: "2024-05-13"
+
+  - id: 11
+    title: "Subscription System"
+    description: "Built a full-stack subscription and payment management system for handling user records, collector workflows, area management, and payment tracking across web and mobile interfaces. The platform combines a React + Vite admin dashboard, an Express + Sequelize backend, and a mobile collector app to provide a practical end-to-end workflow for managing subscriptions, collecting payments, and generating operational insights."
+    longDescription: "Built a full-stack subscription and payment management system for handling user records, collector workflows, area management, and payment tracking across web and mobile interfaces. The platform combines a React + Vite admin dashboard, an Express + Sequelize backend, and a mobile collector app to provide a practical end-to-end workflow for managing subscriptions, collecting payments, and generating operational insights."
+    image: "/img/projects/subscription.png"
+    technologies:
+      - "TypeScript"
+      - "React"
+      - "Vite"
+      - "Node.js"
+      - "Express.js"
+      - "MySQL"
+      - "Tailwind CSS"
+      - "JWT"
+      - "bcrypt"
+      - "React Native"
+    category: "Web Application"
+    featured: false
+    status: "completed"
+    startDate: "2025-07-10"
+    endDate: "2026-01-19"
+    links:
+      demo: "https://app.fabric.microsoft.com/links/kvA-Z1bYJ_?ctid=fa4630b9-65b1-465d-9d71-2d6f9cb85a8b&pbi_source=linkShare"
+    features:
+      - "Admin Authentication: Secure login flow with JWT-based authentication and role-aware access control."
+      - "User and Subscription Management: Create, view, update, and manage registered users and their subscription records."
+      - "Payment Tracking: Record payments, view payment history, and calculate daily collection totals."
+      - "Area Management: Organize users and payments by area for cleaner operational control."
+      - "Mobile Collector App: Separate collector-focused mobile app for logging in and managing field operations."
+      - "Dashboard Reporting: Admin-side reporting and overview pages for monitoring system activity."
+    challenges:
+      - "Role-Based Access Control: Separated admin and collector access paths while keeping authentication consistent across apps."
+      - "Backend Data Modeling: Structured users, registered users, subscriptions, payments, and area relationships in Sequelize."
+      - "Cross-App API Integration: Kept the web dashboard and mobile app aligned against the same backend API."
+      - "Reliable Auth Flow: Handled token-based login, protected routes, and persistent session behavior."
+    outcomes:
+      - "Unified Subscription Workflow: Delivered a single system for managing subscriptions, payments, and collectors."
+      - "Improved Operational Visibility: Enabled faster tracking of collections and user records from the admin dashboard."
+      - "Extensible Full-Stack Base: Built a modular foundation that can be expanded with analytics, notifications, and deployment."
+
+  - id: 8
+    title: "AI-Powered Blog Generator"
+    description: "Built a full-stack AI blog generation platform that creates, previews, saves, and manages long-form blog content from user prompts. The system combines a React + Vite frontend with an Express backend, Gemini AI content generation, and SQLite persistence (with in-memory fallback) to deliver fast, reliable blog creation and management in a clean, production-ready workflow."
+    longDescription: "Built a full-stack AI blog generation platform that creates, previews, saves, and manages long-form blog content from user prompts. The system combines a React + Vite frontend with an Express backend, Gemini AI content generation, and SQLite persistence (with in-memory fallback) to deliver fast, reliable blog creation and management in a clean, production-ready workflow."
+    image: "/img/projects/ai-blog-generator.png"
+    technologies:
+      - "JavaScript (ES Modules)"
+      - "React"
+      - "Vite"
+      - "Node.js"
+      - "Express.js"
+      - "Google Gemini API"
+      - "SQLite"
+      - "Axios"
+    category: "Web Application"
+    featured: false
+    status: "completed"
+    startDate: "2026-03-20"
+    endDate: "2026-04-19"
+
+  - id: 5
+    title: "Developer Portfolio"
+    description: "Modern, responsive portfolio website built with Nuxt 3, featuring glass morphism design and smooth animations."
+    longDescription: "A cutting-edge portfolio website showcasing modern web development techniques. Features glass morphism design, smooth animations, dark/light mode, blog integration, contact forms, and optimized performance. Built with Nuxt 3 and deployed with modern DevOps practices."
+    image: "/img/projects/portfolio.png"
+    technologies:
+      - "Nuxt 3"
+      - "Tailwind CSS"
+      - "TypeScript"
+      - "Nuxt Content"
+      - "Nuxt UI"
+      - "Vercel"
+    category: "Portfolio"
+    featured: false
+    status: "active"
+    startDate: "2026-04-01"
+    endDate: "2026-04-30"
+    links:
+      github: "https://github.com/mubaidr/portfolio"
+      demo: "https://mubaidr.js.org"
+    stats:
+      lighthouse: "100"
+      visitors: "5k+"
+      bounce_rate: "25%"
+      load_time: "0.8s"
+    features:
+      - "Glass morphism design"
+      - "Dark/light mode toggle"
+      - "Blog integration"
+      - "Contact form"
+      - "SEO optimized"
+      - "Performance focused"
+    challenges:
+      - "Achieving perfect Lighthouse scores"
+      - "Cross-browser glass morphism compatibility"
+      - "Optimizing animations for performance"
+    outcomes:
+      - "100/100 Lighthouse score"
+      - "5k+ monthly visitors"
+      - "25% bounce rate"
+      - "0.8s average load time"
+
+  - id: 9
+    title: "Customer Segmentation using K-Means Clustering"
+    description: "This project focuses on identifying distinct customer personas within a retail dataset to drive targeted marketing strategies. Using an RFM (Recency, Frequency, Monetary) framework, I processed raw transactional data to quantify customer value and engagement. By applying the K-Means Clustering algorithm, I segmented the customer base into actionable groups, such as \"High-Value Loyalists\" and \"At-Risk Customers.\" The analysis includes data preprocessing, optimal cluster selection via the Elbow Method, and visual interpretation of cluster characteristics to provide data-driven business insights."
+    longDescription: "This project focuses on identifying distinct customer personas within a retail dataset to drive targeted marketing strategies. Using an RFM (Recency, Frequency, Monetary) framework, I processed raw transactional data to quantify customer value and engagement. By applying the K-Means Clustering algorithm, I segmented the customer base into actionable groups, such as \"High-Value Loyalists\" and \"At-Risk Customers.\" The analysis includes data preprocessing, optimal cluster selection via the Elbow Method, and visual interpretation of cluster characteristics to provide data-driven business insights."
+    image: "/img/projects/customer.png"
+    technologies:
+      - "Python"
+      - "Pandas"
+      - "NumPy"
+      - "Scikit-learn"
+      - "Matplotlib"
+      - "Seaborn"
+    category: "Data Analytics"
+    featured: false
+    status: "completed"
+    startDate: "2025-05-12"
+    endDate: "2025-05-25"
+    links:
+      github: "https://github.com/mhdmirzan/customer-segmentation/"
+    features:
+      - "RFM (Recency, Frequency, Monetary) analysis"
+      - "K-Means clustering algorithm implementation"
+      - "Optimal cluster selection via Elbow Method"
+      - "Automated data preprocessing and scaling"
+      - "Cluster distribution and feature visualization"
+      - "Customer persona identification"
+    challenges:
+      - "Handling outliers in transactional data"
+      - "Determining the optimal number of segments"
+      - "Normalizing skewed feature distributions"
+      - "Interpreting mathematical clusters as business insights"
+    outcomes:
+      - "Clearly defined customer segments"
+      - "Optimized marketing targeting strategy"
+      - "Identification of high-value loyal customers"
+      - "Improved understanding of customer behavior"
+
+  - id: 10
+    title: "Voice Controlled Home Automation System"
+    description: "Developed a globally accessible home automation system that integrates ESP32 microcontrollers with the Sinric Pro API to bridge local hardware with the Google Home ecosystem. This project enables seamless voice-activated control and remote monitoring of appliances via the Google Home app, ensuring high availability and low-latency response from anywhere in the world."
+    longDescription: "Developed a globally accessible home automation system that integrates ESP32 microcontrollers with the Sinric Pro API to bridge local hardware with the Google Home ecosystem. This project enables seamless voice-activated control and remote monitoring of appliances via the Google Home app, ensuring high availability and low-latency response from anywhere in the world."
+    image: "/img/projects/home-automation.png"
+    technologies:
+      - "C++"
+      - "ESP32"
+      - "Sinric Pro API"
+      - "Google Home/Assistant SDK"
+    category: "Hardware & IoT"
+    featured: false
+    status: "completed"
+    startDate: "2023-11-01"
+    endDate: "2024-01-20"
+    features:
+      - "Omnichannel Control: Seamlessly switch between voice commands via Google Assistant and manual toggles through the Google Home mobile app."
+      - "Global Accessibility: Cloud-to-cloud integration via Sinric Pro allows for device management from any location with an internet connection."
+      - "Real-time State Sync: Bi-directional communication ensures the app UI reflects the actual state of the hardware in real-time."
+      - "Modular Architecture: Designed to support multiple relay channels, allowing for the addition of new appliances (lights, fans, pumps) without restructuring the core codebase."
+    challenges:
+      - "Latency Management: Minimizing the 'command-to-action' delay by optimizing Wi-Fi keep-alive pings and handling asynchronous API requests."
+      - "Network Resilience: Implementing auto-reconnect logic to ensure the ESP32 automatically restores its cloud connection after power outages or router reboots."
+      - "Secure Authentication: Managing unique App Keys and Secret Keys within the firmware to prevent unauthorized access to the IoT nodes."
+      - "Power Stability: Handling the inductive load of relays to prevent electromagnetic interference (EMI) from resetting the ESP32 during switching."
+    outcomes:
+      - "Cost-Efficient Smart Home: Built a fully functional ecosystem for a fraction of the cost of commercial hubs (e.g., Philips Hue or Samsung SmartThings)."
+      - "High Availability: Achieved a stable system uptime with a low-latency response rate for voice-activated tasks."
+      - "Hardware-Software Bridge: Successfully demonstrated the integration of embedded C++ firmware with modern cloud-based IoT APIs and consumer-facing smart apps."
+
+categories:
+  - name: "All"
+    count: 12
+  - name: "Dashboard"
+    count: 2
+  - name: "Machine Learning"
+    count: 1
+  - name: "Hardware & IoT"
+    count: 1
+  - name: "Data Analytics"
+    count: 3
+  - name: "Web Application"
+    count: 2
+  - name: "AI"
+    count: 2
+  - name: "Portfolio"
+    count: 1

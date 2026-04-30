@@ -1,0 +1,230 @@
+services:
+  - id: 1
+    title: "Data Engineering"
+    description: "Build reliable data pipelines that collect, clean, and organize data for your business."
+    icon: "i-ph-database"
+    category: "Data"
+    featured: true
+    features:
+      - "Create data pipelines"
+      - "Data extraction and loading"
+      - "Data cleaning and transformation"
+      - "Database setup"
+      - "Cloud data solutions"
+      - "Data quality checks"
+    pricing:
+      hourly: 85
+      currency: "USD"
+      description: "From $85/hour"
+    timeline: "2-8 weeks"
+    suitable: "Startups, SMEs, Enterprise"
+    technologies:
+      - "Python"
+      - "SQL"
+      - "Snowflake"
+      - "AWS S3"
+      - "PostgreSQL"
+      - "MongoDB"
+
+  - id: 2
+    title: "Data Analytics"
+    description: "Analyze your data and create visualizations to help you understand your business better."
+    icon: "i-ph-chart-bar"
+    category: "Analytics"
+    featured: true
+    features:
+      - "Data exploration"
+      - "Create dashboards"
+      - "Generate reports"
+      - "Identify trends"
+      - "Data visualization"
+      - "Business insights"
+    pricing:
+      hourly: 75
+      currency: "USD"
+      description: "From $75/hour"
+    timeline: "1-4 weeks"
+    suitable: "All business sizes"
+    technologies:
+      - "Python"
+      - "SQL"
+      - "Power BI"
+      - "Tableau"
+      - "Excel"
+      - "Pandas"
+
+  - id: 3
+    title: "Data Science"
+    description: "Use machine learning to predict outcomes and uncover hidden patterns in your data."
+    icon: "i-ph-brain"
+    category: "AI/ML"
+    featured: true
+    features:
+      - "Data exploration"
+      - "Build prediction models"
+      - "Statistical analysis"
+      - "Pattern recognition"
+      - "Model evaluation"
+      - "Actionable insights"
+    pricing:
+      hourly: 95
+      currency: "USD"
+      description: "From $95/hour"
+    timeline: "3-12 weeks"
+    suitable: "Businesses seeking predictions"
+    technologies:
+      - "Python"
+      - "Scikit-learn"
+      - "TensorFlow"
+      - "Pandas"
+      - "Jupyter"
+      - "SQL"
+
+  - id: 4
+    title: "AI Engineering"
+    description: "Develop AI systems and chatbots that automate tasks and improve efficiency."
+    icon: "i-ph-robot"
+    category: "AI/ML"
+    featured: true
+    features:
+      - "AI system design"
+      - "Chatbot development"
+      - "LLM integration"
+      - "Automation workflows"
+      - "AI optimization"
+      - "System deployment"
+    pricing:
+      hourly: 110
+      currency: "USD"
+      description: "From $110/hour"
+    timeline: "2-10 weeks"
+    suitable: "Tech companies, Enterprises"
+    technologies:
+      - "Python"
+      - "LangChain"
+      - "OpenAI API"
+      - "FastAPI"
+      - "RAG Systems"
+      - "Streamlit"
+
+  - id: 5
+    title: "Big Data Solutions"
+    description: "Handle and process large amounts of data efficiently using modern tools."
+    icon: "i-ph-hard-drives"
+    category: "Data"
+    featured: false
+    features:
+      - "Large-scale data processing"
+      - "Data warehouse setup"
+      - "Performance optimization"
+      - "Data scalability"
+      - "Real-time processing"
+      - "Cost optimization"
+    pricing:
+      hourly: 100
+      currency: "USD"
+      description: "From $100/hour"
+    timeline: "4-16 weeks"
+    suitable: "Large enterprises"
+    technologies:
+      - "Apache Spark"
+      - "Snowflake"
+      - "AWS EMR"
+      - "Hadoop"
+      - "Airflow"
+      - "Kafka"
+
+ 
+    timeline: "1-4 weeks"
+    suitable: "All business sizes"
+    technologies:
+      - "Data Strategy"
+      - "Architecture Design"
+      - "Best Practices"
+      - "Team Coordination"
+
+process:
+  - step: 1
+    title: "Discovery"
+    description: "We discuss your data challenges, goals, and desired outcomes."
+    icon: "i-ph-chat-circle"
+    details:
+      - "Initial consultation call"
+      - "Understand your data sources"
+      - "Define business objectives"
+      - "Scope and timeline estimation"
+
+  - step: 2
+    title: "Planning"
+    description: "I create a technical plan for data architecture and solution design."
+    icon: "i-ph-calendar"
+    details:
+      - "Data architecture design"
+      - "Solution approach planning"
+      - "Tool and technology selection"
+      - "Implementation roadmap"
+
+  - step: 3
+    title: "Implementation"
+    description: "Build data pipelines, models, or AI systems with regular updates."
+    icon: "i-ph-code"
+    details:
+      - "Data pipeline development"
+      - "Model building and training"
+      - "Regular progress updates"
+      - "Continuous optimization"
+
+  - step: 4
+    title: "Deployment"
+    description: "Deploy solutions to production with monitoring and support."
+    icon: "i-ph-rocket"
+    details:
+      - "Production deployment"
+      - "Performance monitoring"
+      - "Documentation and training"
+      - "Ongoing support and updates"
+
+packages:
+  - name: "Consultation"
+    price: 120
+    currency: "USD"
+    period: "per hour"
+    description: "Perfect for getting expert advice on your project"
+    features:
+      - "Technical consultation"
+      - "Architecture review"
+      - "Technology recommendations"
+      - "Project planning"
+      - "Email support"
+    highlighted: false
+    category: "consulting"
+
+  - name: "Development"
+    price: 100
+    currency: "USD"
+    period: "per hour"
+    description: "Full-stack development services"
+    features:
+      - "Custom web applications"
+      - "Frontend & backend development"
+      - "Database design"
+      - "API development"
+      - "Testing & deployment"
+      - "Documentation"
+    highlighted: true
+    category: "development"
+
+  - name: "Project Leadership"
+    price: null
+    currency: "USD"
+    period: "custom pricing"
+    description: "Complete project management and leadership"
+    features:
+      - "Team management"
+      - "Project planning"
+      - "Quality assurance"
+      - "Risk management"
+      - "Stakeholder communication"
+      - "Delivery guarantee"
+    highlighted: false
+    category: "management"

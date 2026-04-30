@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+@plugin "@tailwindcss/typography";
+
+@theme static {
+  --font-sans: "Manrope", "Public Sans", sans-serif;
+  --color-blue-50: #edf3ff;
+  --color-blue-100: #dce7ff;
+  --color-blue-200: #c4d7ff;
+  --color-blue-300: #9cbcff;
+  --color-blue-400: #6d96f7;
+  --color-blue-500: #0a2a5e;
+  --color-blue-600: #08224d;
+  --color-blue-700: #061a3b;
+  --color-blue-800: #04132b;
+  --color-blue-900: #020c1b;
+  --color-blue-950: #010611;
+  --color-red-500: #0a2a5e;
+  --color-orange-500: #0a2a5e;
+  --color-purple-500: #0a2a5e;
+  --color-yellow-500: #0a2a5e;
+  --color-yellow-400: #6d96f7;
+}
+
+:root {
+  --ui-radius: 0;
+  --brand-navy: #0a2a5e;
+}
+
+body {
+  overflow-y: scroll;
+}

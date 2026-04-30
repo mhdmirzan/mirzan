@@ -1,0 +1,33 @@
+list:
+- label: "What services do you offer?"
+  content: "I offer beginner to intermediate-level support in data engineering (ETL pipelines, data cleaning, SQL queries), AI/ML (model development, EDA, preprocessing), and cloud-based solutions using AWS (S3, Redshift, SageMaker). I also work with Snowflake for modern data warehousing tasks. I'm open to freelance tasks, collaborations, and learning-focused projects."
+
+- label: "What is your typical development process and how are clients involved?"
+  content: "My workflow starts with understanding the problem, identifying goals, and gathering relevant data. Then I design and build the required pipelines or models, regularly sharing progress for feedback. I encourage client involvement at every step to make sure the solution meets their expectations."
+
+- label: "What are your pricing models and payment terms?"
+  content: "Being early in my career, I'm flexible with pricing. I usually work on fixed-cost or hourly models, depending on the project size. For learning-focused or volunteer opportunities, I may even work at a reduced cost or for free if it helps me gain experience. Payment terms are always clearly discussed upfront."
+
+- label: "Which technologies do you specialize in?"
+  content: "I specialize in Python, SQL, AWS services (S3, Lambda, Redshift, SageMaker), Power BI, and Snowflake. I also use tools like Pandas, Scikit-learn, and Jupyter Notebooks for machine learning and data analysis tasks."
+
+- label: "Can you help with an existing project or only new ones?"
+  content: "I'm happy to support both new and existing projects. I can help clean and prepare datasets, optimize queries, improve dashboards, or support with basic ML tasks. I can also assist with documentation and debugging for ongoing data pipelines or Snowflake workflows."
+
+- label: "How do I get started on a project with you?"
+  content: "Just reach out with a brief description of your project. We can schedule a short intro call (15–30 minutes) where I’ll ask about your goals, data, timeline, and expectations. If it’s a good fit, we’ll move forward with a simple plan."
+
+- label: "Do you offer ongoing support and maintenance?"
+  content: "Yes. I offer ongoing support like updating dashboards, maintaining data pipelines, or retraining machine learning models. I can also schedule regular check-ins for long-term projects or work on-demand."
+
+- label: "What kind of consulting do you provide?"
+  content: "While I’m not a senior consultant yet, I can help with tool selection, basic data architecture planning, cloud setup on AWS, and identifying performance bottlenecks. I also enjoy collaborating with experienced teams to provide hands-on support where needed."
+
+- label: "How do you estimate project timelines and handle delays?"
+  content: "I provide realistic time estimates based on the complexity and clearly break down each task. If any delays occur, I inform the client early and adjust timelines as needed. Clear, frequent communication is my priority."
+
+- label: "Who owns the work after the project is completed?"
+  content: "Once the project is done and full payment is made, all deliverables like code, queries, dashboards, and notebooks will be owned by you. I only retain rights to use generic templates or scripts (if any) that I created earlier."
+
+- label: "How do you handle changes during a project?"
+  content: "If the scope changes, we’ll discuss the impact on timeline and cost. I’ll provide a revised plan and only move forward once everything is agreed upon. This helps avoid confusion and keeps the project smooth."

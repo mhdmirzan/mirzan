@@ -1,0 +1,34 @@
+name: "Mohammed Mirzan F."
+title: "AI Engineer | Data Scientist | Data Engineer"
+avatar: "/mirzan.png"
+description: "Delivering data-driven, scalable, and user-centric solutions by leveraging analytics, machine learning, and software tools to unlock business insights and drive impactful decision-making."
+tagline: "Building intelligent systems and data pipelines that drive decision-making. Experienced in AI/ML, data engineering, and analytics – transforming complex data challenges into scalable, production-ready solutions."
+
+social:
+  - name: "GitHub"
+    url: "https://github.com/mhdmirzan"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/mirzan-fawas/"
+
+workApproach:
+  - "Designing and developing data-driven solutions – optimizing performance, usability, and scalability across academic and personal projects."
+  - "Collaborating in team-based environments and academic projects – ensuring clear communication, timely delivery, and adaptability through each phase of development."
+  - "Building dashboards, automating workflows, and writing clean, maintainable code – with a focus on data accuracy and actionable insights."
+
+currentFocus:
+  - "Building AI interviewer systems for smarter candidate evaluation workflows"
+  - "AI automation workflows using LangChain for task orchestration"
+  - "Modern Data Engineering tools and workflows"
+  - "Business Intelligence and dashboarding with Power BI"
+  - "Integrating Large Language Models (LLMs) with data systems"
+
+availability:
+  description: "Open to freelance and collaborative projects. Flexible with remote, async, and agile workflows. Comfortable working across time zones and with distributed teams."
+  cta:
+    text: "Email me To Discuss Your Projects"
+    url: "mailto:mirzanfawas@gmail.com"
+  note: "I aim to reply as quickly as possible with the attention your message deserves."
+
+footer:
+  message: "Thank you for your interest. I look forward to collaborating and building something exceptional together."
+  lastUpdated: "April 09, 2026"

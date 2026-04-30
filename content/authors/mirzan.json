@@ -1,0 +1,17 @@
+{
+  "mirzan": {
+    "@context": "https://schema.org/author",
+    "@id": "https://mirzan.js.org",
+    "@type": "Person",
+    "alternateName": "mirzan",
+    "gender": "Male",
+    "image": "https://mirzan.js.org/meta-img.jpg",
+    "jobTitle": "AI Engineer",
+    "name": "Mohammed Mirzan",
+    "nationality": "Sri Lankan",
+    "sameAs": [
+      "https://mirzan.js.org"
+    ],
+    "url": "https://mirzan.js.org"
+  }
+}

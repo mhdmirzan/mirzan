@@ -1,0 +1,201 @@
+experiences:
+  - id: 2
+    title: "AI Engineer Intern"
+    company: "Software Productivity Strategists, Inc (SPS)"
+    location: "Remote"
+    period: "2025 Jun - 2025 Sep"
+    current: true
+    description: "Developing AI-powered solutions and creating documentation to support business and technical teams."
+    responsibilities:
+      - Developed chatbots using IBM Watsonx Assistant.
+      - Prepared requirement documentation and user stories.
+      - Managed and maintained team workflows in Jira.
+      - Conducted training sessions for the IBM AI Assistant course.
+    technologies:
+      - "IBM Watsonx Assistant"
+      - "Jira"
+      - "Confluence"
+
+    achievements:
+      - "Created comprehensive documentation and user stories for the GreenKeyper app"
+      - "Earned multiple badges for completing the IBM Watsonx Assistant course"
+
+
+
+  # - id: 3
+  #   title: "Junior Developer"
+  #   company: "StartUp Hub"
+  #   location: "Islamabad, Pakistan"
+  #   period: "2012 - 2015"
+  #   current: false
+  #   description: "Started career working on various web development projects and learning modern development practices."
+  #   responsibilities:
+  #     - "Assisted in developing web applications using PHP and MySQL"
+  #     - "Created basic frontend interfaces using HTML, CSS, and JavaScript"
+  #     - "Participated in requirement gathering and project planning"
+  #     - "Maintained and updated existing applications"
+  #   technologies:
+  #     - "PHP"
+  #     - "HTML"
+  #     - "CSS"
+  #     - "JavaScript"
+  #     - "MySQL"
+  #     - "Git"
+  #   achievements:
+  #     - "Successfully completed 3-month intensive training program"
+  #     - "Contributed to 10+ successful project deliveries"
+  #     - "Recognized as 'Most Improved Developer' in first year"
+
+education:
+  - id: 1
+    degree: "Bachelor of Science in Computer Engineering"
+    institution: "University of Engineering and Technology"
+    location: "Taxila, Pakistan"
+    period: "2022 - 2026"
+    description: "Computer Engineering student with a comprehensive background in engineering principles, programming, and system design, specializing in Python, AI, and Data Analytics."
+    achievements:
+      - "Cum Laude (CGPA: 3.63/4.0)"
+      - "Data Science Head of AIR&D Society"
+
+  - id: 2
+    degree: "Advanced Diploma in Networking & Cyber Security"
+    institution: "Winsys City Campus"
+    location: "Srilanka"
+    period: "2022"
+    description: "The course comprises Ethical Hacking, CCNA, MCSA, and Linux Advanced Administration in addition to Network and Hardware Engineering."
+
+certifications:
+  - id: 1
+    name: "Microsoft Certified: Power BI Data Analyst Associate"
+    issuer: "Microsoft"
+    date: "Dec 2, 2025"
+    credentialId: "D310594321673247"
+    description: "Proficiency in modeling, visualizing, and analyzing data using Power BI."
+
+  - id: 2
+    name: "Machine Learning"
+    issuer: "DeepLearning.AI and Stanford University (Coursera)"
+    date: "May 5, 2024"
+    credentialId: "WZD5MTDPHS3R"
+    description: "Demonstrates expertise in supervised, unsupervised, and reinforcement learning, including recommender systems."
+
+  - id: 2
+    name: "Managing Big Data with MySQL"
+    issuer: "Duke University (Coursera)"
+    date: "Jun 19, 2025"
+    credentialId: "6E8BHECG2MO8"
+    description: "Advanced skills in Big Data management with MySQL, including data modeling and performance optimization."
+
+  - id: 3
+    name: "Google Data Analytics"
+    issuer: "Google (Coursera)"
+    date: "Nov 21, 2025"
+    credentialId: "N/A"
+    description: "Google Data Analytics Professional Certificate covering the full data lifecycle, SQL, Tableau, and R."
+
+  - id: 4
+    name: "Introduction to Data Engineering"
+    issuer: "AWS and DeepLearning.AI (Coursera)"
+    date: "Jun 1, 2025"
+    credentialId: "IV11IF7WU45U"
+    description: "Advanced expertise in designing and implementing batch and streaming data pipelines on AWS."
+
+  - id: 4 
+    name: "Source Systems, Data Ingestion, and Pipelines"
+    issuer: "AWS and DeepLearning.AI (Coursera)"
+    date: "Jun 19, 2025"
+    credentialId: "XMP3JSX7N579"
+    description: "Advanced knowledge of integrating security, data management, DataOps, and orchestration into data systems."
+
+  - id: 5 
+    name: "Data Analytics"
+    issuer: "Leverify Quest"
+    date: "May, 2025"
+    credentialId: "N/A"
+    description: "Completed a Capstone project, showcasing strong skills in Excel, Looker Studio, Power BI, and SQL."
+
+  - id: 6
+    name: "Microsoft PL-300 Exam Preparation and Practice"
+    issuer: "Microsoft"
+    date: "Apr 28, 2025"
+    credentialId: "14ZFD1D5O9E0"
+    description: "Proficiency in modeling, visualizing, and analyzing data using Power BI."
+
+  - id: 7
+    name: "Machine Learning in Production"
+    issuer: "DeepLearning.AI (Coursera)"
+    date: "Jun 19, 2025"
+    credentialId: "YNL1HZCO98Z4"
+    description: "Proficiency in modeling, visualizing, and analyzing data using Power BI."
+
+
+technologies:
+  languages:
+    - "Python"
+    - "SQL"
+    - "MATLAB"
+    - "C++"
+  frameworks:
+    - "Scikit-learn"
+    - "TensorFlow"
+    - "Keras"
+    - "PyTorch"
+    - "Matplotlib"
+    - "Seaborn"
+    - "Pandas"
+    - "NumPy"
+    - "Flask"
+    - "FastAPI"
+    - "NLTK"
+    - "LangChain"
+    - "LangGraph"
+    - "Pydantic"
+    - "Hugging Face Transformers"
+
+  data tools:
+    - "Power BI"
+    - "Tableau"
+    - "Excel"
+    - "Looker Studio"
+    - "Databricks"
+    - "Snowflake"
+
+  frontend:
+    - "Streamlit"
+    - "Gradio"
+    - "Flet"
+    - "HTML"
+    - "CSS"
+    - "JavaScript"
+    - "React"
+
+  backend:
+    - "Express.js"
+    - "FastAPI"
+    - "Flask"
+
+  databases:
+    - "PostgreSQL"
+    - "Supabase"
+    - "MongoDB"
+    - "MySQL"
+    - "SQL Server"
+    - "SQLite"
+
+  devops:
+    - "Git"
+    - "GitHub"
+    - "Jira"
+    - "Confluence"
+
+  automation:
+    - "n8n"
+    - "Make"
+
+  other:
+    - "VSCode"
+    - "Postman"
+    - "Jupyter notebook"
+    - "Vibe Coding"
+    - "Cursor"
+    - "Lovable AI"
