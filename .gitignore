@@ -17,6 +17,13 @@ logs
 .DS_Store
 .fleet
 .idea
+.vscode/
+Thumbs.db
+coverage/
+
+# Vercel & Studio
+.vercel
+.studio
 
 # Local env files
 .env
