@@ -1,5 +1,5 @@
 import { defineContentConfig, defineCollection, z } from "@nuxt/content"
-import { asOgImageCollection } from "nuxt-og-image/content"
+import { defineOgImageSchema } from "nuxt-og-image/content"
 
 export default defineContentConfig({
   collections: {
@@ -20,40 +20,40 @@ export default defineContentConfig({
         url: z.string().url(),
       }),
     }),
-    blog: defineCollection(
-      asOgImageCollection({
-        type: "page",
-        source: "blog/*.md",
-        schema: z.object({
-          title: z.string(),
-          description: z.string(),
-          headline: z.string().optional(),
-          abstract: z.string().optional(),
-          date: z.string().datetime(),
-          dateUpdated: z.string().datetime().optional(),
-          author: z.string(),
-          authorUrl: z.string().optional(),
-          socialImage: z
-            .object({
-              src: z.string(),
-              mime: z.string(),
-              alt: z.string(),
-              width: z.number(),
-              height: z.number(),
-            })
-            .optional(),
-          image: z.string().optional(),
-          tags: z.array(z.string()).optional(),
-          featured: z.boolean().optional().default(false),
-        }),
+    blog: defineCollection({
+      type: "page",
+      source: "blog/*.md",
+      schema: z.object({
+        title: z.string(),
+        description: z.string(),
+        headline: z.string().optional(),
+        abstract: z.string().optional(),
+        date: z.string().datetime(),
+        dateUpdated: z.string().datetime().optional(),
+        author: z.string(),
+        authorUrl: z.string().optional(),
+        socialImage: z
+          .object({
+            src: z.string(),
+            mime: z.string(),
+            alt: z.string(),
+            width: z.number(),
+            height: z.number(),
+          })
+          .optional(),
+        image: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+        featured: z.boolean().optional().default(false),
+        ogImage: defineOgImageSchema(),
       }),
-    ),
-    pages: defineCollection(
-      asOgImageCollection({
-        type: "page",
-        source: "*.md",
+    }),
+    pages: defineCollection({
+      type: "page",
+      source: "*.md",
+      schema: z.object({
+        ogImage: defineOgImageSchema(),
       }),
-    ),
+    }),
     testimonials: defineCollection({
       type: "data",
       source: "testimonials/**/*.{json,yml,yaml}",
