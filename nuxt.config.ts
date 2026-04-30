@@ -5,6 +5,10 @@ import { definePerson } from "nuxt-schema-org/schema"
 const IS_DEV = import.meta.dev
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/mirzan/',
+  },
+
   colorMode: {
     preference: "system",
     fallback: "dark",
