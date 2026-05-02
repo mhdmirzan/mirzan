@@ -70,7 +70,7 @@ if (profile.value) {
 <template>
   <div v-if="profile">
     <!-- Hero Section -->
-    <section class="relative text-center min-h-screen">
+    <section class="relative text-center min-h-screen pt-12 sm:pt-0">
       <div class="max-w-5xl mx-auto">
         <div class="flex justify-center mb-8">
           <UAvatar

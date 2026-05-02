@@ -49,9 +49,9 @@ const { data: featuredProjects } = await useAsyncData(
               class="aspect-video bg-gray-100 dark:bg-gray-800 flex items-center justify-center overflow-hidden rounded-lg relative"
             >
               <UCarousel
-                v-if="project.images && project.images.length > 0"
+                v-if="(project.images || []).length > 0"
                 v-slot="{ item }"
-                :items="project.images"
+                :items="project.images || []"
                 :ui="{ item: 'basis-full' }"
                 class="w-full h-full"
                 arrows
@@ -93,11 +93,18 @@ const { data: featuredProjects } = await useAsyncData(
               <!-- Technologies -->
               <div class="flex flex-wrap gap-1">
                 <UBadge
-                  v-for="tech in project.technologies.slice(0, 3)"
+                  v-for="tech in (project.technologies || []).slice(0, 3)"
                   :key="tech"
                   :label="tech"
                   variant="outline"
                   size="sm"
+                />
+                <UBadge
+                  v-if="(project.technologies || []).length > 3"
+                  :label="`+${(project.technologies || []).length - 3}`"
+                  variant="soft"
+                  size="sm"
+                  color="neutral"
                 />
               </div>
             </div>
