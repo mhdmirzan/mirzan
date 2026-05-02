@@ -15,24 +15,25 @@ const { data: profile } = await useAsyncData("profile", () => {
   <div>
     <!-- Call to Action -->
     <section
-      class="text-center py-16 bg-gradient-to-r from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-900/20"
+      class="text-center py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-r from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-900/20"
     >
       <div class="max-w-3xl mx-auto space-y-6">
-        <h2 class="text-3xl md:text-4xl font-bold">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold">
           {{ title || "Let's Work Together" }}
         </h2>
-        <p class="text-lg text-gray-600 dark:text-gray-400">
+        <p class="text-base sm:text-lg text-gray-600 dark:text-gray-400">
           {{
             profile?.availability?.description ||
             "I'm always interested in new opportunities and challenging projects. Let's discuss how we can bring your ideas to life."
           }}
         </p>
 
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-0">
           <UButton
             :to="profile?.availability?.cta?.url || '/contact'"
             size="lg"
             variant="solid"
+            class="w-full sm:w-auto justify-center"
           >
             <UIcon name="i-ph-envelope" />
             {{ profile?.availability?.cta?.text || "Start a Project" }}
@@ -43,6 +44,7 @@ const { data: profile } = await useAsyncData("profile", () => {
             external
             size="lg"
             variant="outline"
+            class="w-full sm:w-auto justify-center"
           >
             <UIcon name="i-ph-calendar" />
             Schedule a Call

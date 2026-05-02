@@ -774,8 +774,8 @@ const lastUpdated = ref("July 1, 2025")
             requirements and how I can work together to bring your ideas to
             life.
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <UButton to="/contact" size="lg" variant="solid">
+          <div class="flex flex-col sm:flex-row gap-4 justify-center px-4 sm:px-0">
+            <UButton to="/contact" size="lg" variant="solid" class="w-full sm:w-auto justify-center">
               <UIcon name="i-ph-envelope" />
               Start a Project
             </UButton>
@@ -784,6 +784,7 @@ const lastUpdated = ref("July 1, 2025")
               external
               size="lg"
               variant="outline"
+              class="w-full sm:w-auto justify-center"
             >
               <UIcon name="i-ph-calendar" />
               Schedule Consultation

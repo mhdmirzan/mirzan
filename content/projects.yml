@@ -274,7 +274,7 @@ projects:
     startDate: "2026-04-01"
     endDate: "2026-04-30"
     links:
-      github: "https://github.com/mubaidr/portfolio"
+      github: "https://mirzan-seven.vercel.app"
       demo: "https://mubaidr.js.org"
     stats:
       lighthouse: "100"

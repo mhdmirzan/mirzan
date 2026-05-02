@@ -140,7 +140,7 @@ const { data: recentPosts } = await useAsyncData("recent-posts", async () => {
       </div>
 
       <div class="text-center">
-        <UButton to="/blog" variant="outline" size="lg">
+        <UButton to="/blog" variant="outline" size="lg" class="w-full sm:w-auto justify-center">
           <UIcon name="i-ph-article" />
           View All Posts
         </UButton>

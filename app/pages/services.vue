@@ -140,20 +140,20 @@ useHead({
       </section>
 
       <!-- Contact CTA -->
-      <section class="space-y-8 text-center">
+      <section class="space-y-8 text-center px-4 sm:px-0">
         <div>
-          <h2 class="text-3xl font-bold mb-4">Let's Discuss Your Project</h2>
-          <p class="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4">Let's Discuss Your Project</h2>
+          <p class="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Every project is unique. Reach out to discuss your specific needs, timeline, and goals. I'll provide you with a custom proposal tailored to your requirements.
           </p>
         </div>
 
-        <div class="flex justify-center pt-6">
+        <div class="flex justify-center pt-6 px-4 sm:px-0">
           <UButton
             to="/contact"
-            size="xl"
+            size="lg"
             variant="solid"
-            class="px-10 font-semibold"
+            class="w-full sm:w-auto font-semibold justify-center"
           >
             <UIcon name="i-ph-envelope" />
             Get In Touch - Let's Talk

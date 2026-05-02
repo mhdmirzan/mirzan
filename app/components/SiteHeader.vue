@@ -2,7 +2,7 @@
   <header
     class="fixed w-full z-40 top-0 left-0 backdrop-blur-lg border-b border-neutral-200/50 dark:border-neutral-700/50"
   >
-    <div class="max-w-6xl mx-auto px-4 md:px-8">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 md:px-8">
       <nav
         class="flex justify-between items-center py-4"
         role="navigation"

@@ -57,7 +57,7 @@ const filteredProjects = computed(() => {
           <h2 class="text-3xl font-bold mb-8">All Projects</h2>
 
           <!-- Category Filter -->
-          <div class="flex flex-wrap justify-center gap-2 mb-8">
+          <div class="flex flex-wrap justify-center gap-2 mb-8 px-2 sm:px-0">
             <UButton
               v-for="category in projects?.categories"
               :key="category.name"
@@ -166,13 +166,14 @@ const filteredProjects = computed(() => {
               </div>
 
               <!-- Links -->
-              <div class="flex items-center gap-2 pt-2">
+              <div class="flex items-center justify-start sm:justify-start gap-2 pt-4 border-t border-neutral-200/50 dark:border-neutral-700/50">
                 <UButton
                   v-if="project.links && project.links.demo"
                   :to="project.links.demo"
                   external
                   variant="soft"
                   size="sm"
+                  class="flex-1 sm:flex-none"
                 >
                   <UIcon name="i-ph-eye" />
                 </UButton>
@@ -183,6 +184,7 @@ const filteredProjects = computed(() => {
                   external
                   variant="ghost"
                   size="sm"
+                  class="flex-1 sm:flex-none"
                 >
                   <UIcon name="i-ph-github-logo" />
                 </UButton>
@@ -192,6 +194,7 @@ const filteredProjects = computed(() => {
                   :to="project.links.case_study"
                   variant="ghost"
                   size="sm"
+                  class="flex-1 sm:flex-none"
                 >
                   <UIcon name="i-ph-article" />
                 </UButton>
@@ -216,6 +219,7 @@ const filteredProjects = computed(() => {
           external
           size="lg"
           variant="soft"
+          class="w-full sm:w-auto justify-center"
         >
           <UIcon name="i-ph-github-logo" />
           View GitHub Profile

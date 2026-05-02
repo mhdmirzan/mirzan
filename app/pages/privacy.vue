@@ -617,7 +617,7 @@ const lastUpdated = ref("December 1, 2024")
             about my data practices. Don't hesitate to reach out if you have any
             concerns.
           </p>
-          <UButton to="/contact" size="lg" variant="solid">
+          <UButton to="/contact" size="lg" variant="solid" class="w-full sm:w-auto justify-center">
             <UIcon name="i-ph-envelope" />
             Contact me
           </UButton>

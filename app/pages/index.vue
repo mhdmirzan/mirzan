@@ -108,20 +108,20 @@ if (profile.value) {
         </div>
 
         <!-- Action Buttons -->
-        <div class="flex flex-col sm:flex-row gap-4 justify-center mt-12">
-          <UButton to="/contact" size="lg" variant="solid" class="glass-button">
+        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mt-12 px-4 sm:px-0">
+          <UButton to="/contact" size="lg" variant="solid" class="glass-button w-full sm:w-auto justify-center">
             <UIcon name="i-ph-envelope" />
             Get In Touch
           </UButton>
 
-          <UButton to="/projects" size="lg" variant="outline">
+          <UButton to="/projects" size="lg" variant="outline" class="w-full sm:w-auto justify-center">
             <UIcon name="i-ph-folder-open" />
             View My Work
           </UButton>
         </div>
 
         <!-- Social Links -->
-        <div class="flex justify-center gap-4 mt-8">
+        <div class="flex justify-center gap-4 mt-8 md:mt-8 mb-12 sm:mb-0">
           <UButton
             v-for="social in profile.social"
             :key="social.name"
@@ -222,7 +222,7 @@ if (profile.value) {
         </div>
 
         <div class="text-center">
-          <UButton to="/about" variant="outline" size="lg">
+          <UButton to="/about" variant="outline" size="lg" class="w-full sm:w-auto justify-center">
             <UIcon name="i-ph-info" />
             View All Details
           </UButton>

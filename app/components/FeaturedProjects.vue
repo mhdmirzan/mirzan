@@ -106,7 +106,7 @@ const { data: featuredProjects } = await useAsyncData(
       </div>
 
       <div class="text-center" v-if="!hideLink">
-        <UButton to="/projects" variant="outline" size="lg">
+        <UButton to="/projects" variant="outline" size="lg" class="w-full sm:w-auto justify-center">
           <UIcon name="i-ph-folder-open" />
           View All Projects
         </UButton>

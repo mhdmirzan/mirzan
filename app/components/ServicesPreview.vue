@@ -42,7 +42,7 @@ const { data: servicesPreview } = await useAsyncData(
       </div>
 
       <div class="text-center">
-        <UButton to="/services" variant="outline" size="lg">
+        <UButton to="/services" variant="outline" size="lg" class="w-full sm:w-auto justify-center">
           <UIcon name="i-ph-briefcase" />
           View All Services
         </UButton>

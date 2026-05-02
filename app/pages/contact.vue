@@ -89,7 +89,7 @@ onMounted(() => {
           </p>
         </div>
 
-        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div class="grid gap-4 sm:gap-6 md:grid-cols-2 lg:grid-cols-4">
           <UCard
             v-for="method in contactMethods"
             :key="method.title"
