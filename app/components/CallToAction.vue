@@ -40,7 +40,7 @@ const { data: profile } = await useAsyncData("profile", () => {
           </UButton>
 
           <UButton
-            href="https://cal.com/mubaidr"
+            href="https://cal.com/mirzan"
             external
             size="lg"
             variant="outline"
