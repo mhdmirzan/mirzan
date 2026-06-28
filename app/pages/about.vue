@@ -57,14 +57,6 @@ useHead({
             variant="soft"
             class="relative"
           >
-            <!-- Current position indicator -->
-            <div
-              v-if="experience.current"
-              class="absolute -top-2 -right-2 z-10"
-            >
-              <UBadge label="Current" variant="solid" color="primary" />
-            </div>
-
             <div class="space-y-6">
               <!-- Experience Header -->
               <div
@@ -79,7 +71,14 @@ useHead({
                     {{ experience.location }}
                   </p>
                 </div>
-                <div class="text-right">
+                <div class="flex items-center gap-2 md:justify-end">
+                  <UBadge
+                    v-if="experience.current"
+                    label="Current"
+                    variant="solid"
+                    color="primary"
+                    size="md"
+                  />
                   <UBadge
                     :label="experience.period"
                     variant="outline"
