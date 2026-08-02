@@ -3,8 +3,8 @@ experiences:
     title: "Junior AI & Data Engineer"
     company: "Spaceborn"
     location: "Remote, India"
-    period: "2026 May - Present"
-    current: true
+    period: "2026 May - 2026 Jul"
+    current: false
     description: "Building Spaceborn's AI platform named Deryk, focusing on artificial intelligence, foundation models, LLMs, agentic AI, reasoning systems, multimodal AI, and future AGI research."
     responsibilities:
       - "Developing AI-powered drone systems, including telemetry data processing, real-time monitoring, and gesture-based drone control using computer vision and machine learning techniques."
@@ -18,11 +18,8 @@ experiences:
       - "VLMs"
       - "Agentic AI"
       - "AI automation"
-      - "Multimodal AI"
-      - "Reasoning Systems"
 
     achievements:
-      - "Designed and initiated development of the 'Deryk' AI platform, integrating advanced reasoning systems and agentic AI architectures."
       - "Built real-time telemetry processing pipelines using Apache Kafka and Apache Spark to monitor drone operations with low latency."
       - "Developed gesture-based drone control mechanisms leveraging computer vision, VLMs, and multimodal AI."
       - "Successfully integrated LLM-driven advisory layers to provide real-time decision support and mission assistance for drone operations."
