@@ -38,6 +38,103 @@ projects:
       - "Successfully launched MVP with positive user feedback"
       - "Secured initial users and ongoing interest from recruiters"
 
+  - id: 15
+    title: "Aviator – AI-Powered Flight Customer Support Agent"
+    description: "Engineered a conversational AI assistant and flight portal that unifies real-time flight search, fare comparison, and travel quality evaluation across 6+ major international carriers. Built with DSPy, FastAPI, Next.js 15, and TypeScript to automate 24/7 customer support for booking adjustments, baggage policies, and itinerary management."
+    longDescription: "Aviator is an advanced conversational AI assistant and flight portal designed to unify real-time flight search, fare comparison, and travel quality evaluation across 6+ major international carriers. Built with DSPy, FastAPI, Next.js 15, and TypeScript, the system automates 24/7 customer support for booking adjustments, baggage policies, and dynamic itinerary management."
+    image: "/img/projects/aviator.png"
+    technologies:
+      - "DSPy"
+      - "FastAPI"
+      - "Next.js 15"
+      - "TypeScript"
+      - "Python"
+      - "Tailwind CSS"
+      - "REST API"
+    category: "AI"
+    featured: true
+    status: "completed"
+    startDate: "2026-01-15"
+    endDate: "2026-03-10"
+    links:
+      demo: "https://airline-agent-swart.vercel.app/"
+      case_study: ""
+    features:
+      - "Real-time flight search & fare comparison across 6+ major international carriers"
+      - "Conversational AI assistant powered by DSPy for flight queries"
+      - "Automated 24/7 customer support for booking adjustments and baggage policies"
+      - "Travel quality evaluation metrics to guide itinerary decisions"
+    challenges:
+      - "Orchestrating real-time API integrations across diverse carrier data formats"
+      - "Optimizing DSPy prompt pipelines for low-latency support responses"
+    outcomes:
+      - "Automated routine booking adjustment and policy inquiries efficiently"
+      - "Delivered a unified portal for flight discovery and customer support"
+
+  - id: 16
+    title: "Subscriber Churn Analytics Platform"
+    description: "Developed a machine learning analytics platform that calculates real-time customer churn probability scores and behavioral risk metrics to maximize subscriber retention, achieving a 92% churn prediction accuracy for subscription businesses."
+    longDescription: "A machine learning analytics platform built to calculate real-time customer churn probability scores and behavioral risk metrics to maximize subscriber retention. Developed using Next.js 15, TypeScript, Python predictive models, and interactive visualization tools, achieving a 92% churn prediction accuracy for subscription businesses."
+    image: "/img/projects/churn-predictive.png"
+    technologies:
+      - "Next.js 15"
+      - "TypeScript"
+      - "Python"
+      - "Scikit-learn"
+      - "Pandas"
+      - "Tailwind CSS"
+    category: "Data Analytics"
+    featured: true
+    status: "completed"
+    startDate: "2025-11-01"
+    endDate: "2026-02-15"
+    links:
+      demo: "https://churn-predictor-sandy.vercel.app/"
+      case_study: ""
+    features:
+      - "Real-time customer churn probability scoring engine"
+      - "Behavioral risk metrics tracking and predictive modeling"
+      - "Interactive visualization tools for subscriber retention analysis"
+      - "High-accuracy predictive analytics tuned for subscription models"
+    challenges:
+      - "Processing dynamic subscriber behavioral metrics in real time"
+      - "Handling class imbalance in subscription cancellation datasets"
+    outcomes:
+      - "Achieved 92% churn prediction accuracy for subscription business models"
+      - "Provided actionable retention insights to mitigate subscriber loss"
+
+  - id: 17
+    title: "Restaurant Inventory Management System"
+    description: "Architected a full-stack inventory management application designed to automate real-time ingredient tracking, stock level forecasting, and operational cost management for restaurants using React, Node.js/Express, and database integration."
+    longDescription: "Architected a full-stack inventory management application designed to automate real-time ingredient tracking, stock level forecasting, and operational cost management for restaurants. Implemented a robust Client-Server architecture (React, Node.js/Express, database integration) to streamline supply procurement and eliminate daily stock wastage."
+    image: "/img/projects/restaurant-inventory.png"
+    technologies:
+      - "React"
+      - "Node.js"
+      - "Express.js"
+      - "PostgreSQL"
+      - "JavaScript"
+      - "Tailwind CSS"
+    category: "Web Application"
+    featured: false
+    status: "completed"
+    startDate: "2025-08-01"
+    endDate: "2025-11-20"
+    links:
+      demo: ""
+      case_study: ""
+    features:
+      - "Real-time ingredient tracking across inventory categories"
+      - "Automated stock level forecasting and low-stock alerts"
+      - "Operational cost management and supply procurement tracking"
+      - "Robust Client-Server architecture with database integration"
+    challenges:
+      - "Designing accurate ingredient depletion calculations for recipe orders"
+      - "Ensuring seamless data synchronization between front-of-house and inventory backend"
+    outcomes:
+      - "Streamlined supply procurement and reduced daily stock wastage"
+      - "Improved operational cost visibility for restaurant management"
+
   - id: 14
     title: "Agent Orchestra"
     description: "A fully autonomous, multi-agent AI research system built with LangChain and Streamlit. It orchestrates four specialized AI agents to search the web, scrape deep content, draft comprehensive markdown reports, and provide automated critiques in a highly polished, live-updating frontend."
@@ -367,7 +464,7 @@ projects:
 
 categories:
   - name: "All"
-    count: 12
+    count: 15
   - name: "Dashboard"
     count: 2
   - name: "Machine Learning"
@@ -375,10 +472,10 @@ categories:
   - name: "Hardware & IoT"
     count: 1
   - name: "Data Analytics"
-    count: 3
+    count: 4
   - name: "Web Application"
-    count: 2
+    count: 3
   - name: "AI"
-    count: 2
+    count: 3
   - name: "Portfolio"
     count: 1

@@ -2,7 +2,7 @@
 const { count, title, hideLink } = defineProps({
   count: {
     type: Number,
-    default: 2,
+    default: 4,
   },
   title: {
     type: String,
