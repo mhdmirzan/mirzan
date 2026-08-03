@@ -120,7 +120,7 @@ if (profile.value) {
       </div>
     </section>
 
-    <div class="space-y-24">
+    <div class="space-y-30">
       <!-- About Preview -->
       <section class="space-y-8">
         <div class="text-center">
