@@ -56,17 +56,23 @@ const { data: featuredProjects } = await useAsyncData(
                 class="w-full h-full"
                 arrows
               >
-                <img
+                <NuxtImg
                   :src="item"
                   :alt="project.title"
+                  format="webp"
+                  quality="80"
+                  loading="lazy"
                   class="w-full h-full object-cover"
                   draggable="false"
                 />
               </UCarousel>
-              <img
+              <NuxtImg
                 v-else-if="project.image"
                 :src="project.image"
                 :alt="project.title"
+                format="webp"
+                quality="80"
+                loading="lazy"
                 class="w-full h-full object-cover"
               />
               <UIcon

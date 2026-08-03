@@ -10,16 +10,26 @@ const { data: projects } = await useAsyncData("projects", async () => {
   return queryCollection("projects").first()
 })
 
-useHead({
+useSeoMeta({
   title: "Projects - Mohammed Mirzan",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Explore my portfolio of AI-driven solutions, data engineering projects, and open-source contributions in machine learning and analytics.",
-    },
-  ],
+  description:
+    "Explore my portfolio of AI-driven solutions, data engineering projects, and open-source contributions in machine learning and analytics.",
+  ogTitle: "Projects - Mohammed Mirzan",
+  ogDescription:
+    "Explore my portfolio of AI-driven solutions, data engineering projects, and open-source contributions in machine learning and analytics.",
+  twitterCard: "summary_large_image",
+  twitterTitle: "Projects - Mohammed Mirzan",
+  twitterDescription:
+    "Explore my portfolio of AI-driven solutions, data engineering projects, and open-source contributions in machine learning and analytics.",
 })
+
+useSchemaOrg([
+  defineWebPage({
+    name: "Projects - Mohammed Mirzan",
+    description:
+      "Explore my portfolio of AI-driven solutions, data engineering projects, and open-source contributions in machine learning and analytics.",
+  }),
+])
 
 const selectedCategory = ref("All")
 

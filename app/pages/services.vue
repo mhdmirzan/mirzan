@@ -10,16 +10,26 @@ const { data: servicesData } = await useAsyncData("services", () => {
   return queryCollection("services").first()
 })
 
-useHead({
+useSeoMeta({
   title: "Services - Mohammed Mirzan",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Professional AI development services including full-stack development, consulting, and technical leadership.",
-    },
-  ],
+  description:
+    "Professional AI & Data development services including data engineering, analytics, machine learning, and consulting.",
+  ogTitle: "Services - Mohammed Mirzan",
+  ogDescription:
+    "Professional AI & Data development services including data engineering, analytics, machine learning, and consulting.",
+  twitterCard: "summary_large_image",
+  twitterTitle: "Services - Mohammed Mirzan",
+  twitterDescription:
+    "Professional AI & Data development services including data engineering, analytics, machine learning, and consulting.",
 })
+
+useSchemaOrg([
+  defineWebPage({
+    name: "Services - Mohammed Mirzan",
+    description:
+      "Professional AI & Data development services including data engineering, analytics, machine learning, and consulting.",
+  }),
+])
 </script>
 
 <template>

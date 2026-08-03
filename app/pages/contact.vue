@@ -5,16 +5,26 @@ definePageMeta({
     "Get in touch to discuss your project requirements and start working together.",
 })
 
-useHead({
+useSeoMeta({
   title: "Contact - Mohammed Mirzan",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Get in touch to discuss your project requirements and start working together.",
-    },
-  ],
+  description:
+    "Get in touch with Mohammed Mirzan to discuss data engineering, AI projects, and technical consulting.",
+  ogTitle: "Contact - Mohammed Mirzan",
+  ogDescription:
+    "Get in touch with Mohammed Mirzan to discuss data engineering, AI projects, and technical consulting.",
+  twitterCard: "summary_large_image",
+  twitterTitle: "Contact - Mohammed Mirzan",
+  twitterDescription:
+    "Get in touch with Mohammed Mirzan to discuss data engineering, AI projects, and technical consulting.",
 })
+
+useSchemaOrg([
+  defineWebPage({
+    name: "Contact - Mohammed Mirzan",
+    description:
+      "Get in touch with Mohammed Mirzan to discuss data engineering, AI projects, and technical consulting.",
+  }),
+])
 
 // Contact methods
 const contactMethods = ref([

@@ -46,31 +46,6 @@ experiences:
       - "Earned multiple badges for completing the IBM Watsonx Assistant course"
 
 
-
-  # - id: 3
-  #   title: "Junior Developer"
-  #   company: "StartUp Hub"
-  #   location: "Islamabad, Pakistan"
-  #   period: "2012 - 2015"
-  #   current: false
-  #   description: "Started career working on various web development projects and learning modern development practices."
-  #   responsibilities:
-  #     - "Assisted in developing web applications using PHP and MySQL"
-  #     - "Created basic frontend interfaces using HTML, CSS, and JavaScript"
-  #     - "Participated in requirement gathering and project planning"
-  #     - "Maintained and updated existing applications"
-  #   technologies:
-  #     - "PHP"
-  #     - "HTML"
-  #     - "CSS"
-  #     - "JavaScript"
-  #     - "MySQL"
-  #     - "Git"
-  #   achievements:
-  #     - "Successfully completed 3-month intensive training program"
-  #     - "Contributed to 10+ successful project deliveries"
-  #     - "Recognized as 'Most Improved Developer' in first year"
-
 education:
   - id: 1
     degree: "Bachelor of Science in Computer Engineering"

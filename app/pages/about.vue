@@ -18,16 +18,26 @@ const { data: profile } = await useAsyncData("profile", () => {
   return queryCollection("profile").first()
 })
 
-useHead({
+useSeoMeta({
   title: "About - Mohammed Mirzan",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Learn about my professional journey, experience, education, and skills in Data.",
-    },
-  ],
+  description:
+    "Learn about my professional journey, experience, education, and skills in Data and AI.",
+  ogTitle: "About - Mohammed Mirzan",
+  ogDescription:
+    "Learn about my professional journey, experience, education, and skills in Data and AI.",
+  twitterCard: "summary_large_image",
+  twitterTitle: "About - Mohammed Mirzan",
+  twitterDescription:
+    "Learn about my professional journey, experience, education, and skills in Data and AI.",
 })
+
+useSchemaOrg([
+  defineWebPage({
+    name: "About - Mohammed Mirzan",
+    description:
+      "Learn about my professional journey, experience, education, and skills in Data and AI.",
+  }),
+])
 </script>
 
 <template>
