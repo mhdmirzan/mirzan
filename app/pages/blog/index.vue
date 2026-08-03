@@ -1,9 +1,25 @@
 <script setup lang="ts">
-// Define page metadata
 definePageMeta({
-  title: "Blog",
-  description: "Read our latest blog posts and insights",
+  title: "Blog - Mohammed Mirzan",
+  description: "Read the latest blog posts, tutorials, and insights on data engineering, AI, and software development by Mohammed Mirzan.",
 })
+
+useSeoMeta({
+  title: "Blog - Mohammed Mirzan",
+  description: "Read the latest blog posts, tutorials, and insights on data engineering, AI, and software development by Mohammed Mirzan.",
+  ogTitle: "Blog - Mohammed Mirzan",
+  ogDescription: "Read the latest blog posts, tutorials, and insights on data engineering, AI, and software development by Mohammed Mirzan.",
+  twitterCard: "summary_large_image",
+  twitterTitle: "Blog - Mohammed Mirzan",
+  twitterDescription: "Read the latest blog posts, tutorials, and insights on data engineering, AI, and software development by Mohammed Mirzan.",
+})
+
+useSchemaOrg([
+  defineWebPage({
+    name: "Blog - Mohammed Mirzan",
+    description: "Read the latest blog posts, tutorials, and insights on data engineering, AI, and software development by Mohammed Mirzan.",
+  }),
+])
 
 // Pagination configuration
 const route = useRoute()
@@ -143,9 +159,12 @@ const getExcerpt = (content: any, maxLength = 150) => {
                 v-if="post.image"
                 class="aspect-[16/9] bg-gray-100 dark:bg-gray-800 mb-4 overflow-hidden"
               >
-                <img
+                <NuxtImg
                   :src="post.image"
                   :alt="post.title"
+                  format="webp"
+                  quality="80"
+                  loading="lazy"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
                 />
               </div>

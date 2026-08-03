@@ -3,8 +3,8 @@ experiences:
     title: "Junior AI & Data Engineer"
     company: "Spaceborn"
     location: "Remote, India"
-    period: "2026 May - Present"
-    current: true
+    period: "2026 May - 2026 Jul"
+    current: false
     description: "Building Spaceborn's AI platform named Deryk, focusing on artificial intelligence, foundation models, LLMs, agentic AI, reasoning systems, multimodal AI, and future AGI research."
     responsibilities:
       - "Developing AI-powered drone systems, including telemetry data processing, real-time monitoring, and gesture-based drone control using computer vision and machine learning techniques."
@@ -18,11 +18,8 @@ experiences:
       - "VLMs"
       - "Agentic AI"
       - "AI automation"
-      - "Multimodal AI"
-      - "Reasoning Systems"
 
     achievements:
-      - "Designed and initiated development of the 'Deryk' AI platform, integrating advanced reasoning systems and agentic AI architectures."
       - "Built real-time telemetry processing pipelines using Apache Kafka and Apache Spark to monitor drone operations with low latency."
       - "Developed gesture-based drone control mechanisms leveraging computer vision, VLMs, and multimodal AI."
       - "Successfully integrated LLM-driven advisory layers to provide real-time decision support and mission assistance for drone operations."
@@ -48,31 +45,6 @@ experiences:
       - "Created comprehensive documentation and user stories for the GreenKeyper app"
       - "Earned multiple badges for completing the IBM Watsonx Assistant course"
 
-
-
-  # - id: 3
-  #   title: "Junior Developer"
-  #   company: "StartUp Hub"
-  #   location: "Islamabad, Pakistan"
-  #   period: "2012 - 2015"
-  #   current: false
-  #   description: "Started career working on various web development projects and learning modern development practices."
-  #   responsibilities:
-  #     - "Assisted in developing web applications using PHP and MySQL"
-  #     - "Created basic frontend interfaces using HTML, CSS, and JavaScript"
-  #     - "Participated in requirement gathering and project planning"
-  #     - "Maintained and updated existing applications"
-  #   technologies:
-  #     - "PHP"
-  #     - "HTML"
-  #     - "CSS"
-  #     - "JavaScript"
-  #     - "MySQL"
-  #     - "Git"
-  #   achievements:
-  #     - "Successfully completed 3-month intensive training program"
-  #     - "Contributed to 10+ successful project deliveries"
-  #     - "Recognized as 'Most Improved Developer' in first year"
 
 education:
   - id: 1

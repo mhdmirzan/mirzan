@@ -6,46 +6,17 @@ const { data: profile } = await useAsyncData("profile", () => {
 
 // SEO Meta
 if (profile.value) {
-  useHead({
+  useSeoMeta({
     title: `${profile.value.name} - ${profile.value.title}`,
-    meta: [
-      {
-        name: "description",
-        content: profile.value.description,
-      },
-      {
-        property: "og:title",
-        content: `${profile.value.name} - ${profile.value.title}`,
-      },
-      {
-        property: "og:description",
-        content: profile.value.description,
-      },
-      {
-        property: "og:image",
-        content: profile.value.avatar,
-      },
-      {
-        property: "og:type",
-        content: "profile",
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image",
-      },
-      {
-        name: "twitter:title",
-        content: `${profile.value.name} - ${profile.value.title}`,
-      },
-      {
-        name: "twitter:description",
-        content: profile.value.description,
-      },
-      {
-        name: "twitter:image",
-        content: profile.value.avatar,
-      },
-    ],
+    description: profile.value.description,
+    ogTitle: `${profile.value.name} - ${profile.value.title}`,
+    ogDescription: profile.value.description,
+    ogImage: profile.value.avatar,
+    ogType: "profile",
+    twitterCard: "summary_large_image",
+    twitterTitle: `${profile.value.name} - ${profile.value.title}`,
+    twitterDescription: profile.value.description,
+    twitterImage: profile.value.avatar,
   })
 
   // Structured data for SEO
@@ -70,14 +41,19 @@ if (profile.value) {
 <template>
   <div v-if="profile">
     <!-- Hero Section -->
-    <section class="relative text-center min-h-screen pt-12 sm:pt-0">
+    <section class="relative text-center pt-2 sm:pt-4 mb-12 sm:mb-16">
       <div class="max-w-5xl mx-auto">
-        <div class="flex justify-center mb-8">
-          <UAvatar
+        <div class="flex justify-center mb-6">
+          <NuxtImg
             :src="profile.avatar"
             :alt="profile.name"
-            size="3xl"
-            class="ring-2 ring-zinc-200/50 dark:ring-zinc-700/50"
+            width="80"
+            height="80"
+            format="webp"
+            quality="85"
+            fetchpriority="high"
+            loading="eager"
+            class="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover ring-2 ring-zinc-200/50 dark:ring-zinc-700/50"
           />
         </div>
 
@@ -121,7 +97,7 @@ if (profile.value) {
         </div>
 
         <!-- Social Links -->
-        <div class="flex justify-center gap-4 mt-8 md:mt-8 mb-12 sm:mb-0">
+        <div class="flex justify-center gap-4 mt-8 md:mt-8 mb-16 sm:mb-24">
           <UButton
             v-for="social in profile.social"
             :key="social.name"
@@ -144,7 +120,7 @@ if (profile.value) {
       </div>
     </section>
 
-    <div class="space-y-24">
+    <div class="space-y-30">
       <!-- About Preview -->
       <section class="space-y-8">
         <div class="text-center">

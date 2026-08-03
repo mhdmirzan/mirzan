@@ -1,4 +1,10 @@
 <script setup lang="ts">
+useSeoMeta({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk}` : "Mohammed Mirzan - Data Engineer & AI Enthusiast"
+  },
+})
+
 useHead({
   htmlAttrs: {
     lang: "en",
@@ -11,6 +17,10 @@ useHead({
     },
   ],
   meta: [
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1",
+    },
     {
       name: "google-site-verification",
       content: "HCL7-zzyR002AD-QxBUEhq9uwSKx2KWCsamU0ANbBW8",

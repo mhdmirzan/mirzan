@@ -3,7 +3,7 @@
     "@iconify-json/devicon": "^1.2.26",
     "@iconify-json/ph": "^1.2.2",
     "@nuxt/content": "^3.5.1",
-    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/fonts": "^0.13.0",
     "@nuxt/icon": "^1.13.0",
     "@nuxt/image": "^1.10.0",
     "@nuxt/ui": "^3.1.3",

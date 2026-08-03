@@ -60,7 +60,7 @@ export default defineNuxtConfig({
 
   experimental: {
     typedPages: true,
-    buildCache: true,
+    buildCache: false,
     headNext: true,
     lazyHydration: true,
     sharedPrerenderData: true,
@@ -71,7 +71,12 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
-  // fonts: {},
+  fonts: {
+    defaults: {
+      weights: [400, 500, 600, 700],
+      styles: ["normal"],
+    },
+  },
 
   icon: {
     clientBundle: {
@@ -79,35 +84,49 @@ export default defineNuxtConfig({
     },
   },
 
-  // image: {
-  //   domains: ["mubaidr.js.org"],
-  //   format: ["webp"],
-  //   quality: 80,
-  // },
+  image: {
+    format: ["webp"],
+    quality: 80,
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+    },
+  },
 
   modules: [
     "@nuxtjs/color-mode",
     "@nuxt/fonts",
     "@nuxt/icon",
     "@nuxt/ui",
-    // "@nuxt/image",
-    // "@nuxtjs/mdc",
+    "@nuxt/image",
     "@nuxtjs/seo",
-    // "nuxt-feedme",
     "@nuxt/content",
-    "nuxt-mcp",
+    ...(IS_DEV ? ["nuxt-mcp"] : []),
   ],
 
   nitro: {
     preset: "vercel",
     prerender: {
       crawlLinks: true,
+      routes: [
+        "/",
+        "/about",
+        "/projects",
+        "/services",
+        "/contact",
+        "/privacy",
+        "/terms",
+        "/blog",
+      ],
       failOnError: false,
     },
   },
 
   routeRules: {
-    "/blog/**": {
+    "/**": {
       prerender: true,
     },
   },
@@ -120,6 +139,15 @@ export default defineNuxtConfig({
       "Data engineer and AI enthusiast focused on building smart, scalable solutions using Python, SQL, Snowflake, and AWS.",
     defaultLocale: "en",
     enabled: true,
+  },
+
+  sitemap: {
+    autoLastmod: true,
+  },
+
+  robots: {
+    UserAgent: "*",
+    Allow: "/",
   },
 
   ssr: true,
