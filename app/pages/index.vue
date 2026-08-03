@@ -144,7 +144,7 @@ if (profile.value) {
                 <li
                   v-for="(approach, index) in (
                     profile.workApproach || []
-                  ).slice(0, 3)"
+                  ).slice(0, 4)"
                   :key="index"
                   class="flex items-start gap-2 text-gray-600 dark:text-gray-400"
                 >
